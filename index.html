@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+    
+  <div class="Block">
+      <p>Click The Arrow To get the Age.</p>
+    <div id="mainblock">
+      <div> 
+        <h5 class="InputHead">DAY</h5>
+        <input type="number" name="day" id="day" class="Inputelement bord">
+        <p class="para" id="paraday" style="color: red; display: none;">Please enter a valid day</p>
+        <p class="para1" id="dayvalid" style="color: red; display: none;">This field is required</p>
+      </div>
+      <div>
+        <h5 class="InputHead">MONTH</h5>
+        <input type="number" name="month" id="month" class="Inputelement">
+        <p class="para" id="paramonth" style="display: none;color: red;">Please enter a valid month</p>
+        <p class="para1" id="monthvalid" style="display: none;color: red;">This field is required</p>       
+      </div>
+      <div>
+        <h5 class="InputHead">YEAR</h5>
+        <input type="number" name="year" id="year" class="Inputelement">
+        <p class="para" id="parayear" style="color: red; display: none;">Please enter a valid year</p>
+        <p class="para1" id="yearvalid" style="color: red; display: none;">This field is required</p>
+      </div>
+    </div>
+    <div class="middle">
+      <hr class="length">
+      <span id="button">
+      <svg class="Icons" xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+      </span>
+    </div>
+    <div class="displayBlock">
+      <h1 class="years"><span class="yearNumber">- -</span>years</h1>
+      <h1 class="months"><span class="monthNumber">- -</span>months</h1>
+      <h1 class="days"><span class="dayNumber">- -</span>days</h1>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
